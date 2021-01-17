@@ -29,6 +29,7 @@ print("Welcome to our prefix-notation calculator")
 
 while (user_input != 'q'):
     user_input = input('Enter your equation > ')  # > + 2 1
+    
     tokens = user_input.split(' ')      # tokens = ['+', '2', '1']
     operation = tokens[0]
 
